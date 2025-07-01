@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mohamed Tamer</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+
+        <input id="menu" type="checkbox" class="burger-menu__checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Dark Mode</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">Hi There, I'M A Frontend-Developer</h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Mohamed Tamer</span>, a Junior
+            Frontend developer, Trainee at
+            <a href="https://www.almdrasa.com" class="bio__almdrasa"
+              >Almdrasa.com</a
+            >
+            and student at FCES||MU
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a
+            href="./Mohamed Tamer-Resume.pdf"
+            class="bio__links find-out-link"
+            target="_blank"
+            >Download CV <span class="bio__arrow">⬇</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            src="./img/Mohamed Tamer.png"
+            alt="image of mohamed tamer "
+            class="bio__pic"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <img
+              class="logo__img"
+              src="./img/html-5.png"
+              alt="html"
+              width="120"
+              loading="lazy"
+            />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">&nbsp;&nbsp;&nbsp;CSS</h2>
+            <img
+              class="logo__img"
+              src="./img/css-3.png"
+              alt="css"
+              width="140"
+              loading="lazy"
+            />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title javascript">Javascript</h2>
+            <img
+              class="logo__img"
+              src="./img/js.png"
+              alt="javascript"
+              width="120"
+              loading="lazy"
+            />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <img
+              class="logo__img"
+              src="./img/react.svg"
+              alt="react"
+              width="120"
+              loading="lazy"
+            />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Python</h2>
+            <img
+              class="logo__img"
+              src="./img/python.png"
+              alt="python"
+              width="120"
+              loading="lazy"
+            />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">&nbsp;&nbsp;Java</h2>
+            <img
+              class="logo__img"
+              src="./img/java.png"
+              alt="java"
+              width="120"
+              loading="lazy"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <h2 class="h2-heading">Social media</h2>
+        <ul class="media__list">
+          <li class="media__item">
+            <a
+              href="https://www.facebook.com/mohamed.tamer.24488/"
+              target="_blank"
+              class="media__link"
+            >
+              <img
+                class="media__img"
+                src="./img/square-facebook-brands.svg"
+                alt="facebook"
+                width="120"
+                loading="lazy"
+              />
+            </a>
+          </li>
+          <li class="media__item">
+            <a
+              href="https://www.instagram.com/mohamedtamer2399/"
+              target="_blank"
+              class="media__link"
+            >
+              <img
+                class="media__img"
+                src="./img/square-instagram-brands.svg"
+                alt="instagram"
+                width="120"
+                loading="lazy"
+              />
+            </a>
+          </li>
+          <li class="media__item">
+            <a
+              href="https://www.linkedin.com/in/mohamed-tamer-568023262/"
+              target="_blank"
+              class="media__link"
+            >
+              <img
+                class="media__img"
+                src="./img/linkedin-brands.svg"
+                alt="linkedin"
+                width="120"
+                loading="lazy"
+              />
+            </a>
+          </li>
+          <li class="media__item">
+            <a
+              href="https://x.com/tamer99mm1?s=11"
+              target="_blank"
+              class="media__link"
+            >
+              <img
+                class="media__img"
+                src="./img/square-x-twitter-brands.svg"
+                alt="twitter"
+                width="120"
+                loading="lazy"
+              />
+            </a>
+          </li>
+          <li class="media__item">
+            <a
+              href="https://www.tiktok.com/@mohamedtamer4316?_t=ZS-8tVb7iLf4Pi&_r=1"
+              target="_blank"
+              class="media__link"
+            >
+              <img
+                class="media__img"
+                src="./img/tiktok-brands.svg"
+                alt="tiktok"
+                width="120"
+                loading="lazy"
+              />
+            </a>
+          </li>
+          <li class="media__item">
+            <a
+              href="https://github.com/Mohamed-cloud595"
+              target="_blank"
+              class="media__link"
+            >
+              <img
+                class="media__img"
+                src="./img/square-github-brands.svg"
+                alt="github"
+                width="120"
+                loading="lazy"
+              />
+            </a>
+          </li>
+        </ul>
+        <p class="future__video">
+          <span class="tight-background"
+            >⮚Media_walkthrough_video_coming_soon!</span
+          >
+        </p>
+      </section>
+
+      <section id="projects" class="projects section section--with-bg">
+        <h2 class="h2-heading">
+          MY FEATURES <br />
+          PROJECTS
+        </h2>
+
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="./img/recipe-page.jpg"
+            alt="recipe-page"
+            loading="lazy"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Simple Recipe <br />
+              Page
+            </h3>
+            <p class="projects__description">
+              A simple recipe page that allows users to knowing how to make an
+              easy omelette recipe. This is a simple project that I created to
+              practice my skills in HTML , CSS. This project is a simple
+              challenge from Frontend Mentor.
+            </p>
+            <a
+              href="https://github.com/Mohamed-cloud595/recipe-page.git"
+              class="projects__link"
+              target="_blank"
+              >Github</a
+            >
+            <span>-</span>
+            <a
+              href="https://www.linkedin.com/posts/mohamed-tamer-568023262_frontendmentor-webdevelopment-html-activity-7323774923460476928-Oy5B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBuWWABPDA_x8xxS7I8MMxfmiXDV2BguIE"
+              class="projects__link"
+              target="_blank"
+              >linkedIn</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Tic Tac Toe <br />
+              Game
+            </h3>
+            <p class="projects__description">
+              Tic Tac Toe is a game i made using python that allows users to
+              play the classic game of Tic Tac Toe against a computer.This is an
+              application that covers some concepts of python language.
+            </p>
+            <a
+              href="https://github.com/Mohamed-cloud595/Tic_Tac_Toe.git"
+              class="projects__link"
+              target="_blank"
+              >Github</a
+            >
+            <span>-</span>
+            <a
+              href="https://www.linkedin.com/posts/mohamed-tamer-568023262_python-tkinter-gamedevelopment-activity-7343077930693976064-RPuX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBuWWABPDA_x8xxS7I8MMxfmiXDV2BguIE"
+              class="projects__link"
+              target="_blank"
+              >linkedIn</a
+            >
+          </div>
+          <img
+            class="projects__img"
+            src="./img/XO.jpg"
+            alt="Tic Tac Toe game"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section">
+        <h2 class="h2-heading Dream">Dream Clients</h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              While I'm at the beginning of my development journey, I'm
+              passionate about growing with companies that value innovation and
+              learning. I aspire to collaborate with:
+            </p>
+            <ul class="clients__list">
+              <li>
+                <div class="start__line">Tech Startups:</div>
+                Where I can contribute to impactful projects while accelerating
+                my skills.
+              </li>
+              <li>
+                <div class="start__line">Open-Source Communities:</div>
+                To learn from experienced developers and give back to the tech
+                ecosystem.
+              </li>
+              <li>
+                <div class="start__line">Educational Platforms:</div>
+                Like Almdrasa, that bridge knowledge gaps for Arabic-speaking
+                developers.
+              </li>
+            </ul>
+            <p class="clients__opinion">
+              "I believe the right partnership benefits both sides—I bring fresh
+              perspectives, dedication, and a hunger to learn."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we amy be a few time zones away.
+          </p>
+          <a href="mailto:mt037650@gmail.com" class="contact__email"
+            >Mohamed Tamer@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/mohamed.tamer.24488/"
+              class="contact__social"
+              target="_blank"
+            >
+              <img
+                src="./img/brand/facebook.svg"
+                alt="facebook icon"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://github.com/Mohamed-cloud595"
+              class="contact__social"
+              target="_blank"
+            >
+              <img
+                src="./img/brand/github.svg"
+                alt="Github icon"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/mohamedtamer2399/"
+              class="contact__social"
+              target="_blank"
+              ><img
+                src="./img/brand/instagram.svg"
+                alt="instagram icon"
+                loading="lazy" /></a
+            ><a
+              href="https://www.linkedin.com/in/mohamed-tamer-568023262/"
+              class="contact__social"
+              target="_blank"
+              ><img
+                src="./img/brand/LinkedIn.svg"
+                alt="linkedin icon"
+                loading="lazy" /></a
+            ><a
+              href="https://x.com/tamer99mm1?s=11"
+              class="contact__social"
+              target="_blank"
+              ><img src="./img/brand/X.svg" alt="X icon" loading="lazy"
+            /></a>
+          </div>
+        </div>
+        <div class="contact__formContact">
+          <h2 class="h2-heading">
+            Let's Work <br />
+            Together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Full Name"
+                name="fullname"
+                required
+              />
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                name="telephone"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&#169; 2025 by Mohamed Tamer</footer>
+    </div>
+  </body>
+</html>
