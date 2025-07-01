@@ -765,13 +765,13 @@ html:has(.toggle__checkbox:checked) .projects__img:hover {
     height: 100%;
     width: 100%;
     top: 0;
-    border-radius: 1rem; 
+    border-radius: 1.5rem; 
   }
   
   .bio__pic {
     width: 100%;
     max-width: 35rem; 
-    padding: 0.5rem;
+    padding: 0.75rem;
   }
 
 }
