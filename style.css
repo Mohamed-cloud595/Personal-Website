@@ -761,10 +761,10 @@ html:has(.toggle__checkbox:checked) .projects__img:hover {
     z-index: 1;
   }
 
-  .bio__pic-content::before {
+/*   .bio__pic-content::before {
     background-color: var(--color-box-img);
     height: 53rem;
-  }
+  } */
 }
 
 /* End Responsive */
