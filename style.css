@@ -762,8 +762,8 @@ html:has(.toggle__checkbox:checked) .projects__img:hover {
   }
 
   .bio__pic-content::before {
-    background-color: var(--color-box-img);
-    height: 53rem;
+/*     background-color: var(--color-box-img); */
+    height: 58rem;
   }
 }
 
